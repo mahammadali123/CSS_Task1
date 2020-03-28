@@ -1,0 +1,297 @@
+#body1
+{
+	 
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/home/mahammadali/Desktop/CodingClub/CSS_Task/src/3.jpeg");
+	height: 100%;
+ 	width: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+a:link 
+{
+	
+	text-decoration: none;
+	color: white;
+
+}
+a:visited
+{
+	text-decoration: none;
+
+	color: white;
+}
+a:hover {
+  
+  border-bottom: 3px solid #f60;
+}
+
+.passage
+{
+	position: relative;
+	top: 250px;
+	font-size: 35px;
+	font-style: serif;
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+}	
+body, html {
+  height: 100%;
+  font-size: 20px;
+  
+
+}	
+	
+
+
+#top-left
+{
+	float: left;
+	text-decoration: none;
+	border-bottom: unset;
+
+}
+
+
+#top-right
+{
+	
+		float: right;
+}
+#buttons
+{
+	position: relative;
+	top: 70px;
+	left: 100px;
+}
+#input
+{
+	border-radius: 30px;
+	width: 250px;
+	height: 50px;
+	opacity: 1.0;
+	border: solid #f60;
+	color: white;
+	font-size: 20px;
+	background-color: Transparent;
+}
+#input:hover
+{
+	background-color:#f60;
+
+}
+
+.second
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/home/mahammadali/Desktop/CodingClub/CSS_Task/src/4.jpeg");
+	height: 100%;
+	
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  background-color:#F1F4FFFF;
+
+
+}
+.third
+{
+
+	 background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/home/mahammadali/Desktop/CodingClub/CSS_Task/src/2.jpeg");
+	height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+
+}
+.fourth
+{
+
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/home/mahammadali/Desktop/CodingClub/CSS_Task/src/1.jpeg");
+	height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+
+}
+.second .third .fourth
+{
+	background-attachment: scroll;
+}
+#secondblock
+{
+		background-color: grey;
+		text-align: center;
+		font-size: 30px;
+		
+		background-position: right bottom, left top;
+		text-align: center;
+		text-decoration-style: solid;
+
+}
+section
+{
+	background-color: white;
+	border: 1px;
+
+}
+#section1
+{
+	float: left;
+	text-align: left;
+	width: 33%;
+	height: 250%;
+	border-radius: 5px;
+}
+#section2
+{
+	
+	width: 33%;
+	position: absolute;
+	left: 35%;
+	text-align: left;
+	border-radius: 5px;
+}
+#text1
+{
+	font-size: 15px;
+	margin-left: 30px;
+}
+#text
+{
+	font-size: 20px;
+	margin-left: 30px;
+}
+#section3
+{
+	float: right;
+	width: 30%;
+	text-align: left;
+
+	border-radius: 5px;
+
+}
+button:hover
+{
+	background-color: skyblue;
+}
+button
+{
+	border: 1px solid blue;
+	margin-left: 30px;
+	width: 150px;
+	height: 40px;
+	border-radius: 5px;
+	color: white;
+	font-size: 20px;
+	background-color: #f60;
+	display: inline-block;
+
+}
+#abcd
+{
+	
+	font-size: 30px;
+	text-align: center;
+
+}
+#thirdblock
+{
+	background-color: grey;
+	
+
+}
+#section11
+{
+	background-color: white;
+	float: left;
+	width: 40%
+}
+#section22
+{
+	position: absolute;
+	left: 45%;
+	width: 40%;
+}
+#fourthblock
+{
+	background-color: grey;
+	font-size: 30px;
+
+}
+
+#project
+{
+	margin-left: 30px;
+	width: 1200px;
+	
+
+}
+#project:focus
+{
+	border-color:skyblue;
+}
+#project1
+{
+	border-color: blue;
+	width: 6%;
+	height: 35px;
+	margin-left: 30px;
+	border-radius: 5px;
+}
+#project1:hover
+{
+	background-color: skyblue;
+}
+#section123 
+{
+	background-color: white;
+	float: left;
+}
+#border
+{
+	
+	
+height: 60px;
+padding-top: 40px;
+font-size: 15px;
+padding-left: 50px;
+}
+#section1234
+{
+	background-color: white;
+	float: right;
+	width: 50%;
+
+}
+#footer1
+{
+	font-family: normal;
+	float: left;
+}
+#footer2
+{
+	float: right;
+	padding-right: 500PX;
+	font-size: 15px;
+}
+#border1
+{
+	font-family: normal;
+	font-size: 15px;
+	padding-left: 150px;
+}
